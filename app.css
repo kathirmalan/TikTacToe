@@ -1,0 +1,111 @@
+.container {
+    width: 80%;
+    margin: 0px auto;
+    min-height: 2px;
+    /* border: 2px solid; */
+}
+h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: fantasy;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+h3{
+    text-align: center;
+    margin-top: 0rem;
+    font-family: fantasy;
+    margin-bottom: 0rem;
+}
+.gameBoard {
+    width: 60%;
+    margin: 2rem;
+    min-height: 2px;
+    /* border: 2px solid; */
+    padding: 2rem 1rem;
+}
+
+.console {
+    width: 40%;
+    margin: 2rem;
+    min-height: 2px;
+    /* border: 2px solid; */
+    padding: 2rem 1rem;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    min-height: 7rem;
+    width: 7rem;
+    border: 2px solid;
+}
+
+.box-top {
+    min-height: 7rem;
+    width: 7rem;
+    border-top: none !important
+}
+
+.box-bottom {
+    min-height: 7rem;
+    width: 7rem;
+    border-bottom: none !important
+}
+
+.b-r-rm {
+    border-right: none !important
+}
+
+.b-l-rm {
+    border-left: none !important
+}
+
+.aligncenter {
+    width: 60%;
+    margin: auto;
+}
+
+.timer {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: brown;
+}
+
+.playerInfo {
+    margin-top: 2rem;
+}
+
+td {
+    padding: 1rem 1rem;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.play{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 4rem;
+    min-height: 1px;
+}
+.box:hover{
+    background-color: #0400ff17;
+}
+.pointer{
+    color : green
+}
+.controlBtn{
+    width: 50%;
+    margin: 2rem auto;
+}
+.controlBtn button{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>DOTSCREEN - TIC TAK TOE GAME</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Tic Tak Toe Game</h2>
+        <h3>DOT Screen</h3>
+        <div class="content-wrapper">
+            
+            <div class="gameBoard">
+                <div class="aligncenter">
+                    <div class="row ">
+                        <div class="box box-top b-l-rm"><div id="1" class="play"></div></div>
+                        <div class="box box-top"><div id="2"  class="play"></div></div>
+                        <div class="box box-top b-r-rm"><div id="3"  class="play"></div></div>
+                    </div>
+                    <div class="row">
+                        <div class="box b-l-rm"><div id="4"  class="play"></div></div>
+                        <div class="box"><div id="5"  class="play"></div></div>
+                        <div class="box b-r-rm"><div id="6"  class="play"></div></div>
+                    </div>
+                    <div class="row">
+                        <div class="box box-bottom b-l-rm"><div id="7"  class="play"></div></div>
+                        <div class="box box-bottom"><div id="8"  class="play"></div></div>
+                        <div class="box box-bottom b-r-rm"><div id="9"  class="play"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="console">
+                <div class="clock">
+                    <div class="timer">
+                        00:00
+                    </div>
+                </div>
+                <div class="playerInfo">
+                    <table>
+                        <tr>
+                            <td id="p1_pointer" class="pointer">--></td>
+                            <td>Player 1 : </td>
+                            <td id="p1_score"> 0</td>
+                        </tr>
+                        <tr>
+                            <td id="p2_pointer" class="pointer"></td>
+                            <td>Player 2 : </td>
+                            <td id="p2_score"> 0</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="controlBtn">
+                    <button id="start" onclick="startGame()"> Start</button>
+                    <button id="end" onclick="resetGame(this)"> reset</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+
+</html>
