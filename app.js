@@ -13,7 +13,7 @@ var matrix_map = [
 ]
 
 function startGame(){
-    document.getElementById("annoucement").style.display = none;
+    
     gameStarted = true;
     let timer = 60 * 3,
     display = document.querySelector('.timer');
